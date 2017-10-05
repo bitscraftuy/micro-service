@@ -30,6 +30,7 @@ CREATE TABLE `wp_vendors` (
 
 
 ## Usage
+First parameter is the controller to use, second action to trigger and the rest of needed parameters like id, name, email, etc.
 yourpath.com/?controller=clients&action=index 
 yourpath.com/?controller=clients&action=show&id=x
 yourpath.com/?controller=users&action=add&roles_id=1&username=miname&dateOfBirth=2000-06-05%2000:00:00&firstname=papap&lastname=popo&pass=1234&phone=565656&email=nono@d.com&current_role=1
