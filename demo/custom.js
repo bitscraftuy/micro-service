@@ -68,7 +68,7 @@ var CustomJs = (function(window,undefined){
                         
                     }else{
                         console.log("new client");
-                        let vendorDefaultEmail = "clevin@urutravel.uy";
+                        let vendorDefaultEmail = "user@yourdomain.com";
                         jQuery("#vendorEmail").val(vendorDefaultEmail);
                         
                         sessionStorage.setItem("newClientEmail",clientEmail);
